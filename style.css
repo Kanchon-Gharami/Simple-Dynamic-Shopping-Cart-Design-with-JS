@@ -1,0 +1,50 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    color: #46413E;
+}
+
+.lft-cntnr{
+    background-color: #ECF0F1;
+    min-height: 720px;
+}
+
+.rght-cntnr{
+    background-color: #46413E;
+    min-height: 720px;
+}
+
+.navlogo{
+    max-height: 50px;
+}
+
+.my-vr-line{
+    width: 3px;
+    height: 40px;
+    background-color: #D1D5D6;
+}
+
+.nav-title{
+    font-size: 28px;
+}
+
+.my-product{
+    background-color: #E5E9EA;
+    height: 90px;
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .my-product{
+        margin-left: 80px !important;
+    }
+}
+
+.item-pic{
+    max-height:70px;
+    margin-top: 10px;
+}
+
+
+.my-form{
+    color: white !important;
+}

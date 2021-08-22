@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title></title>
+
+    <meta charset="UTF-8">
+
+  	<!-- media queary support -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+  	<!-- Latest compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  	<!-- jQuery library -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  	<!-- Popper JS -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  	<!-- Latest compiled JavaScript -->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  	<!-- animated css link -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+  	<!-- font awsome css link -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- for Segoui UI font -->
+    <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+
+  	<!-- custom css link -->
+  	<link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    
+    <div class="container-fluid p-0">
+        <div class="row m-0">
+
+            <div class="col-xl-9 lft-cntnr p-5">
+                <div class="row ml-2 mb-5">
+                    <img src="icons/cart_ico.svg" alt="Can't fund" class="navlogo ml-4">
+                    <div class="my-vr-line mx-4 mt-2"></div>
+                    <h1 class="nav-title mt-2">Your Shopping Cart</h1>
+                </div>
+
+                <div class="m-0 p-0" id="all-items">
+                    
+                </div>
+                
+            </div>
+
+            <div class="col-xl-3 rght-cntnr px-5 py-5">
+                <h2 class="my-2" style="color: #F1C40F;">Add Items</h2>
+
+                <form class="mt-5 my-form">
+                    <div class="form-group">
+                      <label>Product Name</label>
+                      <input type="text" class="form-control" id="productname">
+                    </div>
+                    <div class="form-group">
+                        <label>Catagory</label>
+                        <input type="text" class="form-control" id="cat">
+                      </div>
+                      <div class="form-group">
+                        <label>Price</label>
+                        <input type="number" class="form-control" id="price">
+                      </div>
+                    <button type="submit" class="btn btn-warning text-white btn-block mt-4 click-btn">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
+
+
